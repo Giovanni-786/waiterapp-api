@@ -47,8 +47,11 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Inicie a aplicação:
     - Rode o comando de inicialização: `yarn dev`
     
-- Para o rodar o mongoDB foi utilizado docker, caso já tenha instalado em sua máquina, basta rodar esse comando
-  docker run --name mongo -p 27017:27017 -d mongo
+- Para o rodar o mongoDB foi utilizado docker, caso já tenha instalado em sua máquina, basta rodar esse comando 
+```shell
+docker run --name mongo -p 27017:27017 -d mongo
+```
+  
 
 
 <a id="como-contribuir"></a>
